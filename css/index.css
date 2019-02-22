@@ -246,6 +246,20 @@ nav a {
     justify-content: center;
 }
 
+.about-middle-top {
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.about-middle-bottom {
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.strategy {
+    width:50%;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
