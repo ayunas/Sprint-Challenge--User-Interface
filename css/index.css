@@ -69,20 +69,30 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 30px;
 }
 
 header {
     display:flex;
-    border: 1px solid black;
     width: 800px;
+    margin: 30px 0px;
+    
+}
+
+.header-img {
+    margin: 30px 0;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
-    border: 1px solid green;
     align-items: flex-end;
     flex-grow: 2;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .top-content {
