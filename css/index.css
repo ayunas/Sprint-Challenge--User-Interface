@@ -69,6 +69,40 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 30px;
+}
+
+header {
+    display:flex;
+    width: 800px;
+    margin: 30px;
+    
+}
+
+.header-img {
+    margin: 30px 0;
+}
+
+.contact-container {
+    text-align:center;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-grow: 2;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .top-content {
@@ -83,6 +117,10 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-top {
+    margin-left:25px;
 }
 
 .middle-content {
@@ -110,6 +148,149 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-middle-top {
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.about-middle-bottom {
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.box {
+    margin: 20px;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1.5px dotted black;
+    width:370px
+}
+
+.box img {
+    margin-bottom: 15px;
+}
+
+.box button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.about-bottom {
+    margin:25px;
 }
 
 .bottom-content {
@@ -141,6 +322,12 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: lightgrey;
     text-decoration: none;
+}
+
+
+.about-footer {
+    width:800px;
+    margin-left:20px;
 }
